@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<style type="text/css">
+    body{
+        background:url(images/home.jpeg);
+        background-size: 100%;
+    }
+
+    .containers{
+            font-size: 20px;
+            font-style: italic;
+            font-family: cursive;
+            text-align: center;
+        }
+
+</style>
+<style>
+    body{
+        font-family: 'Quicksand', sans-serif;
+        margin:0;
+    }
+   
+    .heading{
+        color:rgb(1, 1, 102);
+        font-size: 60px;
+        top:20%;
+        padding: bottom 100px;
+    }
+    
+    .heading span{
+        display:block;
+        text-align:center; 
+    }
+
+    .container{
+        display:flex;
+        height: 65vh;
+        align-items: center;
+    }
+
+    .wrapper{
+        display:block;
+        width:100%;
+        position: relative;
+    }
+
+    .texts span{
+        animation: rotate_anim 3s linear;
+        width: 100%;
+        position: absolute;
+        overflow: hidden;
+    }
+
+    @keyframes rotate_anim
+    {
+        0%{opacity: 0;}
+        5%{
+            opacity: 0;
+            transform: translateY(-100px);
+        }
+
+        15%{
+            opacity: 1;
+            transform: translateY(-100px);
+        }
+    }
+   
+   
+</style>
+
+<div class="containers">
+    <a href="HOME.html">Home</a>
+    <a href="Jennifer's website.html">About</a>
+    <a href="Contact Us-1.html">Contact Us/Link</a>
+    <a href="SocialMedia.html">PicsArt</a>
+</div>
+
+<div class="container">
+    <div class="wrapper">
+        <div class="heading">
+            <span class="texts">
+                <span>Welcome!</span>
+            </span>
+        </div>
+    </div>
+</div>
+
+
+
+</html>
